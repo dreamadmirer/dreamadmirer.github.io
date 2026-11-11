@@ -1,0 +1,14 @@
+# 本地自检产物：渲染截图与临时报告，不需要发布
+_shots/
+__pycache__/
+*.pyc
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 日志
+*.log
