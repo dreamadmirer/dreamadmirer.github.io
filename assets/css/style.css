@@ -433,6 +433,27 @@ hr {
 
 /* ---------- 导师简介 ---------- */
 
+/* ---------- 在读研究生 ---------- */
+
+.member-list { display: grid; gap: .7rem; margin: 1.15rem 0 1.75rem; }
+.member {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .85rem 1.1rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+.member__name { font-weight: 700; color: var(--ink); font-size: 1.02rem; min-width: 5em; }
+.member__meta { color: var(--muted); font-size: .92rem; }
+
+@media (max-width: 560px) {
+  .member { flex-direction: column; gap: .15rem; }
+  .member__name { min-width: 0; }
+}
+
 .profile { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 3rem; align-items: start; }
 
 .profile__name { display: flex; align-items: baseline; flex-wrap: wrap; gap: .8rem; margin-bottom: .35rem; }

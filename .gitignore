@@ -3,6 +3,9 @@ _shots/
 __pycache__/
 *.pyc
 
+# 工作区内部数据（项目记忆、任务记录等），不随站点发布
+.workbuddy/
+
 # 操作系统与编辑器
 .DS_Store
 Thumbs.db

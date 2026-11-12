@@ -9,7 +9,7 @@ const os = require('os');
 
 const EDGE = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const PORT = 9333;
-const SITE = 'D:\\Harness-Worksapce';
+const SITE = __dirname;
 const WIDTHS = [360, 390, 430, 768, 1440];
 const PAGES = ['index.html', 'advisor.html', 'research.html', 'projects.html', 'publications.html', 'join.html'];
 
